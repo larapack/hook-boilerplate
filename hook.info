@@ -3,10 +3,10 @@
   "tags": ["your-tags"],
   "provider": "YourServiceProvider",
   "migrations": [
-    "{HOOK}/migrations/*"
+    "{HOOK}/migrations/2017_06_14_120000_create_some_table.php"
   ],
   "seeders": [
-    "{HOOK}/seeds/*"
+    "{HOOK}/seeds/SomeTableSeeder.php"
   ],
   "migrate": true,
   "seed": true
