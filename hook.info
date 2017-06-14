@@ -1,0 +1,13 @@
+{
+  "description": "This is just a boilerplate.",
+  "tags": ["your-tags"],
+  "provider": "YourServiceProvider",
+  "migrations": [
+    "{HOOK}/migrations/*"
+  ],
+  "seeders": [
+    "{HOOK}/seeds/*"
+  ],
+  "migrate": true,
+  "seed": true
+}
