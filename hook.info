@@ -1,7 +1,7 @@
 {
   "description": "This is just a boilerplate.",
   "tags": ["your-tags"],
-  "provider": "YourServiceProvider",
+  "provider": "YourNamespace\\YourServiceProvider",
   "migrations": [
     "{HOOK}/migrations/2017_06_14_120000_create_some_table.php"
   ],
