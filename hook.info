@@ -7,7 +7,5 @@
   ],
   "seeders": [
     "{HOOK}/seeds/SomeTableSeeder.php"
-  ],
-  "migrate": true,
-  "seed": true
+  ]
 }
