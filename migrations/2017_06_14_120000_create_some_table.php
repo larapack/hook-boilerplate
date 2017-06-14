@@ -13,7 +13,7 @@ class CreateSomeTable extends Migration
      */
     public function up()
     {
-        Schema::create('some', function (Blueprint $table) {
+        Schema::create('tableName', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
             $table->timestamps();
@@ -27,6 +27,6 @@ class CreateSomeTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('some');
+        Schema::dropIfExists('tableName');
     }
 }
